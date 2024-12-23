@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #ff5858;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#hero {
+  background-image: url('ice.webp'); /* Replace with your image URL */
+  height: 400px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+#hero h2 {
+  font-size: 2.5em;
+}
+
+#hero p {
+  font-size: 1.5em;
+}
+
+section {
+  padding: 20px;
+}
+
+.flavor-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-around; /* Distributes space evenly */
+}
+
+.flavor-item {
+  text-align: center; /* Center-aligns text under the image */
+  margin: 15px; /* Adds space between items */
+}
+
+.flavor-item img {
+  width: 150px; /* Set a fixed width for images */
+  height: auto; /* Maintains aspect ratio */
+}
+
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+/* New styles for offers and gallery sections */
+#offers, #gallery {
+    background-color: #ff2f2f; /* Light background for visibility */
+    padding: 20px;
+    margin-top:20px; 
+}
+
+.gallery-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.gallery-container img {
+    width: calc(33% - 10px); /* Responsive images in gallery */
+    margin-bottom:10px; 
+}
